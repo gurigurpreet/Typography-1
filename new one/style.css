@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+#a, #e{
+  width:100%;
+  float:left;
+  height:5rem;
+  background-color: red;
+}
+
+#b, #d{
+  width:20%;
+  float:left;
+  height:20rem;
+  background-color: blue;
+}
+
+#c{
+  width:60%;
+  float:left;
+  height:20rem;
+  background-color: yellow;
+}
+
+@media only screen and (max-width:600px) {
+  #a, #b, #c ,#d ,#e {
+    width:100%;
+    float:left;
+  }
+}
